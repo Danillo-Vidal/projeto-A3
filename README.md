@@ -10,4 +10,3 @@
 - **Gustavo Colpaert** - RA: 823126177
 - **Rikellme Kevin Andrade de Lima** - RA: 822160764
 
-Projeto desenvolvido para a disciplina de integração com a API ChatGPT.
