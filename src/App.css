@@ -1,0 +1,11 @@
+.App {
+  height: 100vh;
+  background-image: url('./img/degrade.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  margin: 0;
+  padding: none;
+  border: 1px solid rgb(0, 0, 0); 
+}
