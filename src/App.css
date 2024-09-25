@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
 .App {
   height: 100vh;
-  background-image: url('./img/degrade.JPG');
+  background-image: url('./img/home/fundo.png'); /* Caminho correto */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -9,3 +11,42 @@
   padding: none;
   border: 1px solid rgb(0, 0, 0); 
 }
+
+.navbar {
+  background-color: Transpar; /* Transparência na navbar */
+  padding: 2rem;
+  position: relative;
+}
+
+.navbar-nav {
+  /* Se necessário, mover apenas os itens de navegação */
+  margin-left: -40%; 
+}
+
+.nav-item .nav-link {
+  color: white; /* Cor dos links */
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif; /* Fonte Open Sans */
+  font-weight: 700; /* Ajuste o peso conforme necessário */
+  margin-right: 2rem; /* Espaçamento entre os links */
+}
+
+.nav-item .nav-link:hover {
+  color: #1d5f0f; /* Muda a cor ao passar o mouse */
+}
+
+.fixed-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+/* Em telas menores (como celulares), diminui o deslocamento */
+@media (max-width: 768px) {
+  .navbar {
+    transform: translateX(-10px); /* Menor deslocamento em telas menores */
+  }
+}
+
+

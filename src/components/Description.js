@@ -1,10 +1,12 @@
 // src/components/Description.js
+import './Description.css';
+ // Certifique-se de que este arquivo CSS exista
 import React from 'react';
 
 function Description() {
   return (
     <div>
-      <p>Sou uma API integrada a uma inteligência artificial e posso te auxiliar na sua rotina alimentar</p>
+      <p>CALCULE SUA DIETA EM  SEGUNDOS !</p>
     </div>
   );
 }
