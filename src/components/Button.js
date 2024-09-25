@@ -1,5 +1,5 @@
-// src/components/Button.js
 import React from 'react';
+import 'style/Button.css'
 
 function Button() {
   return (
