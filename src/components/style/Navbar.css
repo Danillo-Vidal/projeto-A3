@@ -6,8 +6,13 @@
 }
 
 .navbar-nav {
-/* Se necessário, mover apenas os itens de navegação */
-margin-left: -40%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Para centralizar os links de navegação */
+}
+
+.navbar-brand {
+    margin-right: auto; /* Logo alinhado à esquerda */
 }
 
 .nav-item .nav-link {

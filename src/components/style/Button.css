@@ -1,0 +1,37 @@
+.button-container {
+    position: relative; /* Define o contexto para o botão */
+}
+
+.btn-custom {
+    position: absolute; /* Muda a posição do botão */
+    right: 3%; /* Alinha à direita do contêiner pai */
+}
+
+.btn-custom {
+    display: inline-flex; /* Usar flex para alinhar ícone e texto */
+    align-items: center; /* Alinha verticalmente os itens */
+    padding: 10px 20px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white; /* Cor do texto */
+    background-color: transparent; /* Fundo transparente */
+    border: 2px solid white; /* Borda branca */
+    border-radius: 30px; /* Borda arredondada */
+    cursor: pointer; /* Muda o cursor para pointer */
+    transition: all 0.3s ease-in-out; /* Suaviza a transição */
+}
+
+.btn-custom:hover {
+    color: #1d5f0f; /* Cor verde ao passar o mouse */
+    background-color: white; /* Fundo branco ao passar o mouse */
+    border-color: #1d5f0f; /* Muda a cor da borda para verde */
+}
+
+.btn-custom i {
+    transition: color 0.3s ease-in-out; /* Suaviza a transição da cor do ícone */
+}
+
+.btn-custom:hover i {
+    color: #1d5f0f; /* Muda a cor do ícone para verde ao passar o mouse */
+}
