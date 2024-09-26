@@ -12,18 +12,20 @@
     font-weight: 1000;
     font-size: 4vw;
     color: #fff;
-    margin-top: 50px; /* Mantém a margem superior */
+    margin-top: 300px; /* Mantém a margem superior */
     margin-left: -50px; /* Move o h1 para a esquerda */
 }
 
 @media (max-width: 768px) {
     .font_h1 {
         font-size: 40px;
+        margin-left: 0; /* Remove a margem negativa em resoluções menores */
     }
 }
 
 @media (max-width: 576px) {
     .font_h1 {
         font-size: 30px;
+        margin-left: 0; /* Garante que não haja margem negativa */
     }
 }

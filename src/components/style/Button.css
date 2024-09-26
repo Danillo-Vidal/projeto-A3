@@ -3,12 +3,9 @@
 }
 
 .btn-custom {
-    position: absolute; /* Muda a posição do botão */
+    position: absolute; /* Posição inicial do botão */
     right: 3%; /* Alinha à direita do contêiner pai */
-}
-
-.btn-custom {
-    display: inline-flex; /* Usar flex para alinhar ícone e texto */
+    display: inline-flex; /* Flex para alinhar ícone e texto */
     align-items: center; /* Alinha verticalmente os itens */
     padding: 10px 20px;
     font-family: 'League Spartan', sans-serif;
@@ -34,4 +31,34 @@
 
 .btn-custom:hover i {
     color: #1d5f0f; /* Muda a cor do ícone para verde ao passar o mouse */
+}
+
+/* Responsividade: Tamanhos de tela menores */
+@media (max-width: 1000px) {
+    .btn-custom {
+        position: fixed; /* Fixa o botão na tela */
+        bottom: 20px; /* Fixa o botão no rodapé */
+        left: 50%; /* Move o botão para o centro */
+        transform: translateX(-50%); /* Centraliza o botão */
+        font-size: 1.2rem; /* Ajusta o tamanho da fonte */
+        padding: 10px 20px; /* Mantém o padding */
+        width: auto; /* Define a largura automática */
+        right: auto; /* Remove o alinhamento à direita */
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-custom {
+        font-size: 1rem; /* Reduz o tamanho da fonte para tablets */
+        padding: 8px 16px; /* Reduz o padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-custom {
+        font-size: 0.9rem; /* Tamanho menor da fonte para smartphones */
+        padding: 6px 12px; /* Menos espaçamento */
+        width: 90%; /* O botão ocupa 90% da largura */
+        bottom: 15px; /* Ajusta a distância do rodapé */
+    }
 }
