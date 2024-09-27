@@ -12,8 +12,8 @@
     font-weight: 1000;
     font-size: 4vw;
     color: #fff;
-    margin-top: 300px; /* Mantém a margem superior */
-    margin-left: -50px; /* Move o h1 para a esquerda */
+    margin-top: 5vw; /* Mantém a margem superior */
+    margin-left: 17vw; /* Move o h1 para a esquerda */
 }
 
 @media (max-width: 768px) {
